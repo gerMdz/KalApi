@@ -9,4 +9,4 @@ La api a consumir
 
 
 Voy por
-[1](1)
+[6](https://www.udemy.com/course/cliente-http-peticiones-laravel-guzzle-consumir-apis-servicios/learn/lecture/14256876#questions)
