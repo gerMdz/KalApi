@@ -9,4 +9,5 @@ La api a consumir
 
 
 Voy por
-[6](https://www.udemy.com/course/cliente-http-peticiones-laravel-guzzle-consumir-apis-servicios/learn/lecture/14256876#questions)
+[15](https://www.udemy.com/course/cliente-http-peticiones-laravel-guzzle-consumir-apis-servicios/learn/lecture/14256910#questions)
+Aunque no he resuelto el tema de la api con JDG, pero espero entenderlo en el camino
