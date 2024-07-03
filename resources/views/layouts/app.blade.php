@@ -75,19 +75,23 @@
         </div>
     </nav>
 
-    @if(session()->has('message'))
-        <div class="alert alert-success">
-            {{ session()->get('message') }}
+    @if(isset($errors) && $errors->any())
+        <div class="alert alert-danger">
+            <button class="close" type="button" data-dismiss="alert" aria-hidden="true">&times;</button>
+            <ul>
+                @foreach($errors->all() as $error)
+                    <li>{{$error}}</li>
+                @endforeach
+            </ul>
         </div>
     @endif
-    @if(isset($errors) && $errors->get())
-        <div class="alert alert-danger">
-            <buttton class="close" type="button" data-dismiss="alert" aria-hidden="true">
-                &times;
-            </buttton>
+
+    @if(session()->has('success'))
+        <div class="alert alert-success">
+            <button class="close" type="button" data-dismiss="alert" aria-hidden="true">&times;</button>
             <ul>
-                @foreach($errors->get() as $error)
-                    <li>{{ $error }}</li>
+                @foreach(session()->get('success') as $message)
+                    <li>{{$message}}</li>
                 @endforeach
             </ul>
         </div>
