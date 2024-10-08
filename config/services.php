@@ -31,4 +31,12 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'market' => [
+        'base_url' => env('MARKET_BASE_URL'),
+        'client_id' => env('MARKET_CLIENT_ID'),
+        'client_secret' => env('MARKET_CLIENT_SECRET'),
+        'password_client_id' => env('MARKET_PASS_CLIENT_ID'),
+        'password_client_secret' => env('MARKET_PASS_CLIENT_SECRET')
+    ]
+
 ];

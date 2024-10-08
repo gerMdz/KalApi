@@ -57,11 +57,11 @@ trait ConsumeServicioExterno
     {
     }
 
-    private function decodeResponse(string $response)
+    private function decodeResponse(array $response)
     {
     }
 
-    private function checkSiErrorResponse(string $response)
+    private function checkSiErrorResponse(array $response)
     {
     }
 }

@@ -11,5 +11,5 @@ La api a consumir
 php artisan ui vue --auth
 
 Voy por
-[22](https://www.udemy.com/course/cliente-http-peticiones-laravel-guzzle-consumir-apis-servicios/learn/lecture/14256996#questions)
+[25](https://www.udemy.com/course/cliente-http-peticiones-laravel-guzzle-consumir-apis-servicios/learn/lecture/14257390#questions)
 Aunque no he resuelto el tema de la api con JDG, pero espero entenderlo en el camino
