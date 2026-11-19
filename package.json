@@ -8,11 +8,11 @@
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
         "@vitejs/plugin-vue": "^5.2.3",
-        "axios": "^1.15.0",
+        "axios": "^1.18.0",
         "bootstrap": "^5.2.3",
         "laravel-vite-plugin": "^1.2.0",
         "sass": "^1.56.1",
-        "vite": "^6.4.2",
+        "vite": "^6.4.3",
         "vue": "^3.2.37"
     }
 }
